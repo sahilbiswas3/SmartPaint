@@ -1,0 +1,243 @@
+/* FAQ Page Styles */
+:root {
+    --primary-color: #0077B6; /* Ocean Blue */
+    --secondary-color: #00B4D8; /* Cyan */
+    --accent-color: #FFB6B9; /* Soft Pink */
+    --dark-color: #333333;
+    --light-color: #f8f9fa;
+    --gray-color: #6c757d;
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+}
+
+/* FAQ Header */
+.faq-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    margin-top: 70px; /* To account for fixed navbar */
+}
+
+.faq-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.faq-header .lead {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* FAQ Intro Section */
+.faq-intro-section {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.faq-intro-section .section-header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-intro-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.faq-intro-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--dark-color);
+}
+
+/* FAQ Accordion Section */
+.faq-accordion-section {
+    padding: 40px 0 80px;
+    background-color: var(--light-color);
+}
+
+.accordion {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.accordion-item.active .accordion-header {
+    border-left: 4px solid var(--secondary-color);
+}
+
+.accordion-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--dark-color);
+    transition: color 0.3s ease;
+}
+
+.accordion-item.active .accordion-header h3 {
+    color: var(--primary-color);
+}
+
+.accordion-icon {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 30px;
+    transition: all 0.5s ease;
+    background-color: white;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 300px;
+    padding: 0 30px 20px;
+}
+
+.accordion-content p {
+    margin: 0;
+    color: var(--gray-color);
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.accordion-content a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.accordion-content a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* Still Have Questions Section */
+.still-questions-section {
+    padding: 80px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.questions-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.questions-content h2 {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.questions-content .btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .faq-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .faq-header .lead {
+        font-size: 1.3rem;
+    }
+    
+    .accordion-header h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-header {
+        padding: 60px 0;
+    }
+    
+    .faq-header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .faq-header .lead {
+        font-size: 1.1rem;
+    }
+    
+    .faq-intro-section,
+    .faq-accordion-section,
+    .still-questions-section {
+        padding: 40px 0;
+    }
+    
+    .accordion-header {
+        padding: 15px 20px;
+    }
+    
+    .accordion-item.active .accordion-content {
+        padding: 0 20px 15px;
+    }
+    
+    .questions-content h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .faq-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .faq-header .lead {
+        font-size: 1rem;
+    }
+    
+    .accordion-header h3 {
+        font-size: 1rem;
+        width: 85%;
+    }
+    
+    .accordion-icon {
+        font-size: 1rem;
+    }
+    
+    .questions-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .questions-content .btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}

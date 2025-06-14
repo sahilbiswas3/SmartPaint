@@ -1,0 +1,74 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+  
+  <!-- Room structure -->
+  <rect x="50" y="50" width="500" height="300" fill="#ffffff" stroke="#cccccc" stroke-width="2" />
+  
+  <!-- Modern false ceiling design -->
+  <g transform="translate(300, 100)">
+    <!-- Main ceiling panel -->
+    <rect x="-200" y="-30" width="400" height="10" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
+    
+    <!-- Dropped ceiling section -->
+    <rect x="-150" y="-20" width="300" height="30" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
+    
+    <!-- Recessed lighting -->
+    <circle cx="-100" cy="10" r="10" fill="#FFEB3B" opacity="0.8" />
+    <circle cx="0" cy="10" r="10" fill="#FFEB3B" opacity="0.8" />
+    <circle cx="100" cy="10" r="10" fill="#FFEB3B" opacity="0.8" />
+    
+    <!-- Decorative border -->
+    <rect x="-150" y="10" width="300" height="5" fill="#0077B6" />
+    
+    <!-- Ceiling design elements -->
+    <path d="M-150,-20 L-150,10 L-120,-5 L-90,10 L-60,-5 L-30,10 L0,-5 L30,10 L60,-5 L90,10 L120,-5 L150,10 L150,-20 Z" fill="none" stroke="#00B4D8" stroke-width="2" />
+  </g>
+  
+  <!-- Worker on ladder -->
+  <g transform="translate(150, 250)">
+    <!-- Ladder -->
+    <rect x="-20" y="-100" width="5" height="150" fill="#8D6E63" />
+    <rect x="15" y="-100" width="5" height="150" fill="#8D6E63" />
+    <!-- Ladder steps -->
+    <rect x="-20" y="-80" width="40" height="3" fill="#8D6E63" />
+    <rect x="-20" y="-60" width="40" height="3" fill="#8D6E63" />
+    <rect x="-20" y="-40" width="40" height="3" fill="#8D6E63" />
+    <rect x="-20" y="-20" width="40" height="3" fill="#8D6E63" />
+    <rect x="-20" y="0" width="40" height="3" fill="#8D6E63" />
+    
+    <!-- Worker -->
+    <g transform="translate(0, -90)">
+      <!-- Head -->
+      <circle cx="0" cy="0" r="10" fill="#333333" />
+      <!-- Body -->
+      <rect x="-7" y="10" width="14" height="25" fill="#333333" />
+      <!-- Arms -->
+      <rect x="-20" y="15" width="13" height="5" fill="#333333" />
+      <rect x="7" y="15" width="23" height="5" fill="#333333" />
+      <!-- Legs -->
+      <rect x="-7" y="35" width="5" height="20" fill="#333333" />
+      <rect x="2" y="35" width="5" height="20" fill="#333333" />
+      <!-- Tool -->
+      <rect x="30" y="15" width="15" height="3" fill="#cccccc" />
+    </g>
+  </g>
+  
+  <!-- Second worker with materials -->
+  <g transform="translate(400, 300)">
+    <!-- Worker -->
+    <circle cx="0" cy="0" r="15" fill="#333333" />
+    <rect x="-10" y="15" width="20" height="30" fill="#333333" />
+    <rect x="-25" y="20" width="15" height="5" fill="#333333" />
+    <rect x="10" y="20" width="15" height="5" fill="#333333" />
+    <rect x="-10" y="45" width="8" height="20" fill="#333333" />
+    <rect x="2" y="45" width="8" height="20" fill="#333333" />
+    
+    <!-- Ceiling panel being carried -->
+    <rect x="-40" y="10" width="80" height="10" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
+  </g>
+  
+  <!-- Project label -->
+  <rect x="50" y="360" width="500" height="30" fill="#0077B6" />
+  <text x="300" y="382" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Modern False Ceiling Installation</text>
+</svg>

@@ -1,0 +1,146 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+  
+  <!-- Study room setup -->
+  <g transform="translate(50, 50)">
+    <!-- Room outline -->
+    <rect x="0" y="0" width="500" height="300" fill="#ffffff" stroke="#cccccc" stroke-width="2" />
+    
+    <!-- Floor -->
+    <rect x="0" y="250" width="500" height="50" fill="#d7ccc8" />
+    
+    <!-- Left wall with bookshelf -->
+    <g transform="translate(0, 0)">
+      <!-- Bookshelf structure -->
+      <rect x="20" y="30" width="120" height="220" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+      
+      <!-- Shelves -->
+      <rect x="20" y="70" width="120" height="5" fill="#8d6e63" />
+      <rect x="20" y="110" width="120" height="5" fill="#8d6e63" />
+      <rect x="20" y="150" width="120" height="5" fill="#8d6e63" />
+      <rect x="20" y="190" width="120" height="5" fill="#8d6e63" />
+      
+      <!-- Books on shelves -->
+      <!-- Top shelf -->
+      <rect x="25" y="35" width="10" height="35" fill="#f44336" />
+      <rect x="35" y="35" width="10" height="35" fill="#2196f3" />
+      <rect x="45" y="35" width="10" height="35" fill="#4caf50" />
+      <rect x="55" y="35" width="10" height="35" fill="#ff9800" />
+      <rect x="65" y="35" width="10" height="35" fill="#9c27b0" />
+      <rect x="85" y="40" width="20" height="30" fill="#e0e0e0" />
+      <rect x="105" y="35" width="15" height="35" fill="#3f51b5" />
+      <rect x="120" y="35" width="15" height="35" fill="#009688" />
+      
+      <!-- Second shelf -->
+      <rect x="25" y="75" width="15" height="35" fill="#cddc39" />
+      <rect x="40" y="75" width="15" height="35" fill="#ff5722" />
+      <rect x="65" y="75" width="25" height="35" fill="#607d8b" />
+      <rect x="100" y="75" width="10" height="35" fill="#e91e63" />
+      <rect x="110" y="75" width="10" height="35" fill="#673ab7" />
+      <rect x="120" y="75" width="10" height="35" fill="#ffc107" />
+      
+      <!-- Third shelf -->
+      <rect x="25" y="115" width="20" height="35" fill="#795548" />
+      <rect x="55" y="115" width="15" height="35" fill="#03a9f4" />
+      <rect x="70" y="115" width="15" height="35" fill="#8bc34a" />
+      <rect x="95" y="115" width="20" height="35" fill="#9e9e9e" />
+      <rect x="115" y="115" width="20" height="35" fill="#ffeb3b" />
+      
+      <!-- Fourth shelf -->
+      <rect x="25" y="155" width="10" height="35" fill="#3f51b5" />
+      <rect x="35" y="155" width="10" height="35" fill="#e91e63" />
+      <rect x="45" y="155" width="10" height="35" fill="#009688" />
+      <rect x="55" y="155" width="10" height="35" fill="#ff5722" />
+      <rect x="75" y="155" width="25" height="35" fill="#f44336" />
+      <rect x="110" y="155" width="25" height="35" fill="#4caf50" />
+      
+      <!-- Bottom shelf -->
+      <rect x="25" y="195" width="30" height="55" fill="#607d8b" />
+      <rect x="65" y="195" width="30" height="55" fill="#607d8b" />
+      <rect x="105" y="195" width="30" height="55" fill="#607d8b" />
+    </g>
+    
+    <!-- Study desk -->
+    <g transform="translate(180, 150)">
+      <!-- Desk top -->
+      <rect x="0" y="0" width="200" height="80" fill="#a1887f" stroke="#8d6e63" stroke-width="2" rx="2" ry="2" />
+      
+      <!-- Desk legs -->
+      <rect x="10" y="80" width="10" height="70" fill="#8d6e63" />
+      <rect x="180" y="80" width="10" height="70" fill="#8d6e63" />
+      
+      <!-- Built-in drawers -->
+      <rect x="30" y="30" width="140" height="50" fill="#8d6e63" />
+      <rect x="40" y="40" width="120" height="10" fill="#a1887f" stroke="#8d6e63" stroke-width="1" />
+      <rect x="40" y="60" width="55" height="10" fill="#a1887f" stroke="#8d6e63" stroke-width="1" />
+      <rect x="105" y="60" width="55" height="10" fill="#a1887f" stroke="#8d6e63" stroke-width="1" />
+      
+      <!-- Drawer handles -->
+      <rect x="95" y="45" width="10" height="2" fill="#5d4037" />
+      <rect x="65" y="65" width="5" height="2" fill="#5d4037" />
+      <rect x="130" y="65" width="5" height="2" fill="#5d4037" />
+      
+      <!-- Items on desk -->
+      <!-- Laptop -->
+      <g transform="translate(50, -20)">
+        <rect x="0" y="0" width="80" height="50" fill="#e0e0e0" rx="2" ry="2" />
+        <rect x="0" y="40" width="80" height="10" fill="#9e9e9e" rx="2" ry="2" />
+        <rect x="5" y="5" width="70" height="30" fill="#2196f3" opacity="0.8" />
+      </g>
+      
+      <!-- Desk lamp -->
+      <g transform="translate(150, -30)">
+        <rect x="0" y="20" width="5" height="30" fill="#212121" />
+        <rect x="-10" y="20" width="25" height="3" fill="#212121" />
+        <path d="M-10,20 L0,0 L10,20 Z" fill="#ffd54f" />
+        <circle cx="0" cy="0" r="5" fill="#ffecb3" />
+      </g>
+      
+      <!-- Notebook -->
+      <rect x="10" y="-10" width="30" height="20" fill="#ffffff" stroke="#9e9e9e" stroke-width="1" transform="rotate(-10,10,-10)" />
+    </g>
+    
+    <!-- Ergonomic chair -->
+    <g transform="translate(280, 230)">
+      <!-- Chair base -->
+      <circle cx="0" cy="0" r="25" fill="#212121" />
+      
+      <!-- Chair post -->
+      <rect x="-5" y="-70" width="10" height="70" fill="#616161" />
+      
+      <!-- Chair seat -->
+      <rect x="-25" y="-80" width="50" height="10" fill="#0288d1" rx="5" ry="5" />
+      
+      <!-- Chair back -->
+      <rect x="-25" y="-130" width="50" height="50" fill="#0288d1" rx="5" ry="5" />
+      <path d="M-25,-130 C-25,-140 25,-140 25,-130" fill="#0288d1" />
+    </g>
+    
+    <!-- Window -->
+    <g transform="translate(400, 50)">
+      <rect x="0" y="0" width="80" height="100" fill="#bbdefb" stroke="#1976d2" stroke-width="2" />
+      <line x1="40" y1="0" x2="40" y2="100" stroke="#1976d2" stroke-width="2" />
+      <line x1="0" y1="50" x2="80" y2="50" stroke="#1976d2" stroke-width="2" />
+    </g>
+    
+    <!-- Carpenter/Designer -->
+    <g transform="translate(400, 200)">
+      <!-- Person -->
+      <circle cx="0" cy="0" r="15" fill="#333333" />
+      <rect x="-10" y="15" width="20" height="30" fill="#333333" />
+      <rect x="-20" y="20" width="10" height="20" fill="#333333" />
+      <rect x="10" y="20" width="10" height="20" fill="#333333" />
+      <rect x="-10" y="45" width="8" height="20" fill="#333333" />
+      <rect x="2" y="45" width="8" height="20" fill="#333333" />
+      
+      <!-- Measuring tape -->
+      <rect x="-30" y="20" width="10" height="5" fill="#ffd54f" />
+      <line x1="-30" y1="22.5" x2="-50" y2="22.5" stroke="#ffd54f" stroke-width="1" />
+    </g>
+  </g>
+  
+  <!-- Project label -->
+  <rect x="50" y="360" width="500" height="30" fill="#0077B6" />
+  <text x="300" y="382" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Ergonomic Study Room Setup with Built-in Storage</text>
+</svg>

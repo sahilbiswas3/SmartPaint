@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Wood texture pattern -->
+    <pattern id="wood-pattern" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#d7b889" />
+      <g fill="none" stroke="#c4a978" stroke-width="1.5">
+        <path d="M0,20 H200 M0,40 H200 M0,60 H200 M0,80 H200 M0,100 H200 M0,120 H200 M0,140 H200 M0,160 H200 M0,180 H200" />
+      </g>
+      <g fill="#b39b76" opacity="0.3">
+        <ellipse cx="40" cy="30" rx="15" ry="10" />
+        <ellipse cx="150" cy="90" rx="20" ry="15" />
+        <ellipse cx="70" cy="160" rx="25" ry="12" />
+        <ellipse cx="180" cy="140" rx="15" ry="10" />
+      </g>
+    </pattern>
+    
+    <!-- Marble texture pattern -->
+    <pattern id="marble-pattern" patternUnits="userSpaceOnUse" width="300" height="300">
+      <rect width="300" height="300" fill="#f2f2f2" />
+      <g fill="none" stroke="#e0e0e0" stroke-width="2">
+        <path d="M0,0 Q150,100 300,50 T600,150" />
+        <path d="M50,300 Q200,250 350,280 T700,200" />
+        <path d="M-50,150 Q100,200 250,180 T500,220" />
+      </g>
+      <g fill="#e6e6e6" opacity="0.4">
+        <ellipse cx="100" cy="100" rx="50" ry="30" />
+        <ellipse cx="250" cy="200" rx="70" ry="40" />
+        <ellipse cx="150" cy="250" rx="60" ry="35" />
+      </g>
+    </pattern>
+    
+    <!-- City skyline pattern -->
+    <pattern id="skyline-pattern" patternUnits="userSpaceOnUse" width="500" height="200">
+      <rect width="500" height="200" fill="#a4c2f4" />
+      <!-- Buildings -->
+      <rect x="10" y="80" width="30" height="120" fill="#555" />
+      <rect x="50" y="100" width="40" height="100" fill="#666" />
+      <rect x="100" y="60" width="25" height="140" fill="#444" />
+      <rect x="135" y="90" width="35" height="110" fill="#555" />
+      <rect x="180" y="40" width="30" height="160" fill="#333" />
+      <rect x="220" y="70" width="45" height="130" fill="#666" />
+      <rect x="275" y="50" width="25" height="150" fill="#444" />
+      <rect x="310" y="90" width="40" height="110" fill="#555" />
+      <rect x="360" y="30" width="30" height="170" fill="#333" />
+      <rect x="400" y="80" width="35" height="120" fill="#666" />
+      <rect x="445" y="60" width="40" height="140" fill="#444" />
+      <!-- Windows -->
+      <g fill="#fff" opacity="0.7">
+        <rect x="15" y="90" width="5" height="8" />
+        <rect x="25" y="90" width="5" height="8" />
+        <rect x="15" y="105" width="5" height="8" />
+        <rect x="25" y="105" width="5" height="8" />
+        <!-- More windows for other buildings -->
+      </g>
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1920" height="1080" fill="url(#bg-gradient)" />
+  
+  <!-- Room structure -->
+  <!-- Floor -->
+  <rect x="0" y="800" width="1920" height="280" fill="url(#wood-pattern)" />
+  
+  <!-- Left wall -->
+  <rect x="0" y="0" width="400" height="800" fill="#e6e6e6" />
+  
+  <!-- Right wall -->
+  <rect x="1520" y="0" width="400" height="800" fill="#e6e6e6" />
+  
+  <!-- Back wall with large window -->
+  <rect x="400" y="0" width="1120" height="800" fill="#f0f0f0" />
+  
+  <!-- Large panoramic window with city view -->
+  <rect x="450" y="100" width="1020" height="500" fill="url(#skyline-pattern)" />
+  <rect x="450" y="100" width="1020" height="500" fill="none" stroke="#999" stroke-width="10" />
+  <line x1="960" y1="100" x2="960" y2="600" stroke="#999" stroke-width="10" />
+  
+  <!-- Modern sofa -->
+  <rect x="600" y="650" width="300" height="100" rx="10" fill="#0077b6" />
+  <rect x="600" y="700" width="300" height="50" rx="5" fill="#0077b6" />
+  <rect x="600" y="600" width="300" height="50" rx="10" fill="#0077b6" />
+  <!-- Sofa cushions -->
+  <rect x="620" y="610" width="80" height="40" rx="5" fill="#90e0ef" />
+  <rect x="710" y="610" width="80" height="40" rx="5" fill="#90e0ef" />
+  <rect x="800" y="610" width="80" height="40" rx="5" fill="#90e0ef" />
+  
+  <!-- Coffee table -->
+  <rect x="950" y="700" width="200" height="80" rx="5" fill="url(#marble-pattern)" />
+  <rect x="970" y="780" width="15" height="40" fill="#333" />
+  <rect x="1115" y="780" width="15" height="40" fill="#333" />
+  
+  <!-- Painter with ladder -->
+  <!-- Ladder -->
+  <rect x="1300" y="400" width="15" height="400" fill="#b8b8b8" />
+  <rect x="1400" y="400" width="15" height="400" fill="#b8b8b8" />
+  <!-- Ladder steps -->
+  <rect x="1300" y="450" width="115" height="10" fill="#b8b8b8" />
+  <rect x="1300" y="550" width="115" height="10" fill="#b8b8b8" />
+  <rect x="1300" y="650" width="115" height="10" fill="#b8b8b8" />
+  <rect x="1300" y="750" width="115" height="10" fill="#b8b8b8" />
+  
+  <!-- Painter -->
+  <ellipse cx="1350" cy="380" rx="25" ry="25" fill="#ffb6b9" /> <!-- Head -->
+  <rect x="1340" y="405" width="20" height="60" fill="#ffb6b9" /> <!-- Body -->
+  <rect x="1330" y="465" width="40" height="40" fill="#0077b6" /> <!-- Torso -->
+  <rect x="1330" y="505" width="15" height="50" fill="#0077b6" /> <!-- Left leg -->
+  <rect x="1355" y="505" width="15" height="50" fill="#0077b6" /> <!-- Right leg -->
+  <rect x="1320" y="435" width="30" height="10" fill="#ffb6b9" /> <!-- Left arm -->
+  <rect x="1370" y="435" width="50" height="10" fill="#ffb6b9" transform="rotate(-30,1370,435)" /> <!-- Right arm with paint roller -->
+  
+  <!-- Paint supplies -->
+  <rect x="1200" y="750" width="60" height="40" fill="#0077b6" /> <!-- Paint can -->
+  <ellipse cx="1230" cy="750" rx="30" ry="5" fill="#90e0ef" /> <!-- Paint can top -->
+  <rect x="1280" y="760" width="100" height="20" fill="#f5f5f5" /> <!-- Paint tray -->
+  <path d="M1280,760 L1380,760 L1350,770 L1310,770 Z" fill="#0077b6" /> <!-- Paint in tray -->
+  
+  <!-- Wall being painted -->
+  <rect x="1520" y="200" width="400" height="600" fill="#f5f5f5" />
+  <rect x="1520" y="200" width="200" height="300" fill="#0077b6" /> <!-- Painted section -->
+  <rect x="1720" y="200" width="200" height="300" fill="#f5f5f5" /> <!-- Unpainted section -->
+  
+  <!-- Artistic wall decorations -->
+  <circle cx="200" cy="300" r="100" fill="none" stroke="#ffb6b9" stroke-width="5" />
+  <rect x="150" y="450" width="100" height="100" fill="none" stroke="#0077b6" stroke-width="5" />
+  <polygon points="200,600 250,680 150,680" fill="none" stroke="#90e0ef" stroke-width="5" />
+  
+  <!-- Modern ceiling light -->
+  <line x1="960" y1="0" x2="960" y2="150" stroke="#333" stroke-width="3" />
+  <ellipse cx="960" cy="150" rx="100" ry="30" fill="#f5f5f5" opacity="0.8" />
+  <ellipse cx="960" cy="150" rx="80" ry="20" fill="#fff" opacity="0.9" />
+  
+  <!-- Text overlay -->
+  <text x="960" y="900" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#0077b6">TRANSFORM YOUR SPACE WITH SMART PAINTING</text>
+</svg>

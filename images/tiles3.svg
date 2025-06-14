@@ -1,0 +1,229 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+  
+  <!-- Outdoor patio with anti-skid tiles -->
+  <g transform="translate(50, 50)">
+    <!-- Patio outline -->
+    <rect x="0" y="0" width="500" height="300" fill="#81c784" />
+    
+    <!-- Tiled area -->
+    <g>
+      <!-- Main tiled area with natural stone finish -->
+      <rect x="50" y="50" width="400" height="200" fill="#a1887f" />
+      
+      <!-- Tile pattern - anti-skid natural stone finish -->
+      <g>
+        <!-- Row 1 -->
+        <g transform="translate(50, 50)">
+          <rect x="0" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="50" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="100" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="150" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="200" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="250" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="300" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="350" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+        </g>
+        
+        <!-- Row 2 -->
+        <g transform="translate(50, 100)">
+          <rect x="0" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="50" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="100" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="150" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="200" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="250" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="300" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="350" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+        </g>
+        
+        <!-- Row 3 -->
+        <g transform="translate(50, 150)">
+          <rect x="0" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="50" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="100" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="150" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="200" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="250" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="300" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="350" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+        </g>
+        
+        <!-- Row 4 -->
+        <g transform="translate(50, 200)">
+          <rect x="0" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="50" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="100" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="150" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="200" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="250" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+          <rect x="300" y="0" width="50" height="50" fill="#a1887f" stroke="#8d6e63" stroke-width="2" />
+          <rect x="350" y="0" width="50" height="50" fill="#8d6e63" stroke="#795548" stroke-width="2" />
+        </g>
+      </g>
+      
+      <!-- Anti-skid texture pattern -->
+      <g>
+        <!-- Adding texture to tiles -->
+        <g transform="translate(50, 50)">
+          <!-- Texture for first row -->
+          <g>
+            <line x1="10" y1="10" x2="20" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="30" y1="10" x2="40" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="10" y1="30" x2="20" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="30" y1="30" x2="40" y2="40" stroke="#5d4037" stroke-width="1" />
+            
+            <line x1="60" y1="10" x2="70" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="80" y1="10" x2="90" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="60" y1="30" x2="70" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="80" y1="30" x2="90" y2="40" stroke="#795548" stroke-width="1" />
+            
+            <line x1="110" y1="10" x2="120" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="130" y1="10" x2="140" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="110" y1="30" x2="120" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="130" y1="30" x2="140" y2="40" stroke="#5d4037" stroke-width="1" />
+            
+            <!-- Continue pattern for all tiles -->
+            <line x1="160" y1="10" x2="170" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="180" y1="10" x2="190" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="160" y1="30" x2="170" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="180" y1="30" x2="190" y2="40" stroke="#795548" stroke-width="1" />
+            
+            <line x1="210" y1="10" x2="220" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="230" y1="10" x2="240" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="210" y1="30" x2="220" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="230" y1="30" x2="240" y2="40" stroke="#5d4037" stroke-width="1" />
+            
+            <line x1="260" y1="10" x2="270" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="280" y1="10" x2="290" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="260" y1="30" x2="270" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="280" y1="30" x2="290" y2="40" stroke="#795548" stroke-width="1" />
+            
+            <line x1="310" y1="10" x2="320" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="330" y1="10" x2="340" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="310" y1="30" x2="320" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="330" y1="30" x2="340" y2="40" stroke="#5d4037" stroke-width="1" />
+            
+            <line x1="360" y1="10" x2="370" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="380" y1="10" x2="390" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="360" y1="30" x2="370" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="380" y1="30" x2="390" y2="40" stroke="#795548" stroke-width="1" />
+          </g>
+          
+          <!-- Texture for second row -->
+          <g transform="translate(0, 50)">
+            <line x1="10" y1="10" x2="20" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="30" y1="10" x2="40" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="10" y1="30" x2="20" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="30" y1="30" x2="40" y2="40" stroke="#795548" stroke-width="1" />
+            
+            <line x1="60" y1="10" x2="70" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="80" y1="10" x2="90" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="60" y1="30" x2="70" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="80" y1="30" x2="90" y2="40" stroke="#5d4037" stroke-width="1" />
+            
+            <!-- Continue pattern for all tiles -->
+            <line x1="110" y1="10" x2="120" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="130" y1="10" x2="140" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="110" y1="30" x2="120" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="130" y1="30" x2="140" y2="40" stroke="#795548" stroke-width="1" />
+            
+            <line x1="160" y1="10" x2="170" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="180" y1="10" x2="190" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="160" y1="30" x2="170" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="180" y1="30" x2="190" y2="40" stroke="#5d4037" stroke-width="1" />
+            
+            <line x1="210" y1="10" x2="220" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="230" y1="10" x2="240" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="210" y1="30" x2="220" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="230" y1="30" x2="240" y2="40" stroke="#795548" stroke-width="1" />
+            
+            <line x1="260" y1="10" x2="270" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="280" y1="10" x2="290" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="260" y1="30" x2="270" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="280" y1="30" x2="290" y2="40" stroke="#5d4037" stroke-width="1" />
+            
+            <line x1="310" y1="10" x2="320" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="330" y1="10" x2="340" y2="20" stroke="#795548" stroke-width="1" />
+            <line x1="310" y1="30" x2="320" y2="40" stroke="#795548" stroke-width="1" />
+            <line x1="330" y1="30" x2="340" y2="40" stroke="#795548" stroke-width="1" />
+            
+            <line x1="360" y1="10" x2="370" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="380" y1="10" x2="390" y2="20" stroke="#5d4037" stroke-width="1" />
+            <line x1="360" y1="30" x2="370" y2="40" stroke="#5d4037" stroke-width="1" />
+            <line x1="380" y1="30" x2="390" y2="40" stroke="#5d4037" stroke-width="1" />
+          </g>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Patio furniture -->
+    <g transform="translate(100, 100)">
+      <!-- Table -->
+      <rect x="0" y="0" width="80" height="80" fill="#90a4ae" rx="5" ry="5" />
+      <rect x="10" y="10" width="60" height="60" fill="#78909c" rx="3" ry="3" />
+      <rect x="35" y="80" width="10" height="20" fill="#78909c" />
+      
+      <!-- Chair 1 -->
+      <rect x="-30" y="30" width="20" height="20" fill="#90a4ae" rx="2" ry="2" />
+      <rect x="-25" y="50" width="10" height="20" fill="#78909c" />
+      
+      <!-- Chair 2 -->
+      <rect x="90" y="30" width="20" height="20" fill="#90a4ae" rx="2" ry="2" />
+      <rect x="95" y="50" width="10" height="20" fill="#78909c" />
+    </g>
+    
+    <!-- Potted plants -->
+    <g transform="translate(350, 80)">
+      <!-- Plant 1 -->
+      <rect x="0" y="20" width="30" height="30" fill="#795548" rx="2" ry="2" />
+      <circle cx="15" cy="0" r="20" fill="#66bb6a" />
+      <circle cx="5" cy="-10" r="10" fill="#43a047" />
+      <circle cx="25" cy="-10" r="10" fill="#43a047" />
+      
+      <!-- Plant 2 -->
+      <g transform="translate(60, 0)">
+        <rect x="0" y="20" width="20" height="20" fill="#795548" rx="2" ry="2" />
+        <polygon points="10,0 0,20 20,20" fill="#43a047" />
+        <polygon points="10,-10 0,10 20,10" fill="#66bb6a" />
+      </g>
+    </g>
+    
+    <!-- Tile installer -->
+    <g transform="translate(150, 250)">
+      <!-- Person -->
+      <circle cx="0" cy="0" r="15" fill="#333333" />
+      <rect x="-10" y="15" width="20" height="30" fill="#333333" />
+      <rect x="-20" y="20" width="10" height="20" fill="#333333" />
+      <rect x="10" y="20" width="10" height="20" fill="#333333" />
+      <rect x="-10" y="45" width="8" height="5" fill="#333333" />
+      <rect x="2" y="45" width="8" height="5" fill="#333333" />
+      
+      <!-- Kneeling position -->
+      <rect x="-10" y="45" width="20" height="5" fill="#333333" />
+      
+      <!-- Tools -->
+      <rect x="20" y="30" width="20" height="5" fill="#9e9e9e" />
+      <rect x="20" y="35" width="5" height="10" fill="#9e9e9e" />
+    </g>
+    
+    <!-- Anti-skid label -->
+    <g transform="translate(300, 250)">
+      <rect x="0" y="0" width="120" height="40" rx="5" ry="5" fill="#0077b6" />
+      <text x="60" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle">ANTI-SKID</text>
+      <text x="60" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="middle">TECHNOLOGY</text>
+    </g>
+    
+    <!-- Water droplet demonstration -->
+    <g transform="translate(350, 200)">
+      <path d="M0,0 C5,-10 15,-10 20,0 C25,10 15,20 10,20 C5,20 -5,10 0,0 Z" fill="#29b6f6" opacity="0.7" />
+      <line x1="0" y1="25" x2="20" y2="25" stroke="#0288d1" stroke-width="2" />
+      <line x1="10" y1="20" x2="10" y2="30" stroke="#0288d1" stroke-width="2" />
+    </g>
+  </g>
+  
+  <!-- Project label -->
+  <rect x="50" y="360" width="500" height="30" fill="#0077B6" />
+  <text x="300" y="382" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Outdoor Patio Flooring with Anti-Skid Natural Stone Tiles</text>
+</svg>

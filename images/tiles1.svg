@@ -1,0 +1,99 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+  
+  <!-- Room structure -->
+  <rect x="50" y="50" width="500" height="300" fill="#ffffff" stroke="#cccccc" stroke-width="2" />
+  
+  <!-- Wall -->
+  <rect x="50" y="50" width="500" height="100" fill="#f5f5f5" />
+  
+  <!-- Floor with marble tiles pattern -->
+  <g transform="translate(50, 150)">
+    <!-- Base floor -->
+    <rect width="500" height="200" fill="#f5f5f5" />
+    
+    <!-- Marble tile pattern - completed section -->
+    <g>
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="50" y="0" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="100" y="0" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="150" y="0" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="200" y="0" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      
+      <!-- Row 2 -->
+      <rect x="0" y="50" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="50" y="50" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="100" y="50" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="150" y="50" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="200" y="50" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      
+      <!-- Row 3 -->
+      <rect x="0" y="100" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="50" y="100" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="100" y="100" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="150" y="100" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="200" y="100" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      
+      <!-- Add marble veining effect to some tiles -->
+      <path d="M10,10 Q30,20 20,40" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M60,20 Q80,10 90,30" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M120,30 Q130,10 140,40" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M170,15 Q190,25 180,45" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M220,25 Q240,15 230,35" stroke="#cccccc" stroke-width="1" fill="none" />
+      
+      <path d="M15,60 Q35,70 25,90" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M65,70 Q85,60 95,80" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M125,80 Q135,60 145,90" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M175,65 Q195,75 185,95" stroke="#cccccc" stroke-width="1" fill="none" />
+      <path d="M225,75 Q245,65 235,85" stroke="#cccccc" stroke-width="1" fill="none" />
+    </g>
+    
+    <!-- In-progress section -->
+    <g transform="translate(250, 0)">
+      <!-- Tiles being laid -->
+      <rect x="0" y="0" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="50" y="0" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="100" y="0" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="150" y="0" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="200" y="0" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      
+      <rect x="0" y="50" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="50" y="50" width="50" height="50" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+      <rect x="100" y="50" width="50" height="50" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+      
+      <!-- Cement/adhesive area -->
+      <rect x="150" y="50" width="100" height="150" fill="#d3d3d3" />
+      <rect x="0" y="100" width="150" height="100" fill="#d3d3d3" />
+    </g>
+  </g>
+  
+  <!-- Worker laying tiles -->
+  <g transform="translate(350, 250)">
+    <!-- Worker -->
+    <circle cx="0" cy="0" r="15" fill="#333333" />
+    <rect x="-15" y="15" width="30" height="30" fill="#333333" />
+    <rect x="-30" y="20" width="15" height="5" fill="#333333" />
+    <rect x="15" y="20" width="15" height="5" fill="#333333" />
+    <rect x="-10" y="45" width="8" height="15" fill="#333333" />
+    <rect x="2" y="45" width="8" height="15" fill="#333333" />
+    
+    <!-- Tools -->
+    <rect x="-40" y="20" width="10" height="5" fill="#cccccc" />
+    <rect x="30" y="20" width="20" height="3" fill="#cccccc" />
+  </g>
+  
+  <!-- Tile stack -->
+  <g transform="translate(150, 280)">
+    <rect x="0" y="0" width="40" height="40" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
+    <rect x="3" y="-3" width="40" height="40" fill="#f0f0f0" stroke="#cccccc" stroke-width="1" />
+    <rect x="6" y="-6" width="40" height="40" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
+    <rect x="9" y="-9" width="40" height="40" fill="#f0f0f0" stroke="#cccccc" stroke-width="1" />
+    <rect x="12" y="-12" width="40" height="40" fill="#f5f5f5" stroke="#cccccc" stroke-width="1" />
+  </g>
+  
+  <!-- Project label -->
+  <rect x="50" y="360" width="500" height="30" fill="#0077B6" />
+  <text x="300" y="382" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Premium Marble Tile Installation</text>
+</svg>

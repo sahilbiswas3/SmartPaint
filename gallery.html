@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Smart Painting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Smart Painting</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <header class="page-header gallery-header">
+        <div class="container">
+            <h1>Our Work Speaks for Itself</h1>
+            <p class="lead">See the transformations we've delivered across Kolkata.</p>
+        </div>
+    </header>
+
+    <!-- Filterable Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">🌟 All Projects</button>
+                <button class="filter-btn" data-filter="painting">🖌️ Painting</button>
+                <button class="filter-btn" data-filter="furniture">🛋️ Furniture</button>
+                <button class="filter-btn" data-filter="ceiling">🏠 False Ceiling</button>
+                <button class="filter-btn" data-filter="tiles">🧱 Marble/Tiling</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Painting Projects -->
+                <div class="gallery-item" data-category="painting">
+                    <div class="gallery-img">
+                        <img src="images/painting1.svg" alt="Modern Living Room" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Modern Living Room</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Salt Lake, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> March 2024</p>
+                        </div>
+                        <p class="gallery-notes">Wall repainted with Berger Silk Glamor</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="painting">
+                    <div class="gallery-img">
+                        <img src="images/painting2.svg" alt="Office Space Renovation" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Office Space Renovation</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Park Street, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> January 2024</p>
+                        </div>
+                        <p class="gallery-notes">Corporate color scheme with accent wall</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="painting">
+                    <div class="gallery-img">
+                        <img src="images/painting3.svg" alt="Bedroom Makeover" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Bedroom Makeover</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> New Town, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> February 2024</p>
+                        </div>
+                        <p class="gallery-notes">Textured wall with Asian Paints Royale Play</p>
+                    </div>
+                </div>
+                
+                <!-- Furniture Projects -->
+                <div class="gallery-item" data-category="furniture">
+                    <div class="gallery-img">
+                        <img src="images/furniture1.svg" alt="Custom Bedroom Set" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Custom Bedroom Set</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Ballygunge, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> December 2023</p>
+                        </div>
+                        <p class="gallery-notes">Handcrafted wooden furniture with modern design</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="furniture">
+                    <div class="gallery-img">
+                        <img src="images/furniture2.svg" alt="Modular Kitchen" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Modular Kitchen</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Alipore, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> November 2023</p>
+                        </div>
+                        <p class="gallery-notes">Space-efficient design with premium materials</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="furniture">
+                    <div class="gallery-img">
+                        <img src="images/furniture3.svg" alt="Living Room Cabinet" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Living Room Cabinet</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Howrah, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> October 2023</p>
+                        </div>
+                        <p class="gallery-notes">Custom TV unit with storage and display shelves</p>
+                    </div>
+                </div>
+                
+                <!-- Ceiling Projects -->
+                <div class="gallery-item" data-category="ceiling">
+                    <div class="gallery-img">
+                        <img src="images/ceiling1.svg" alt="LED Ceiling Design" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>LED Ceiling Design</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Gariahat, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> March 2024</p>
+                        </div>
+                        <p class="gallery-notes">Contemporary false ceiling with integrated lighting</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="ceiling">
+                    <div class="gallery-img">
+                        <img src="images/ceiling2.svg" alt="Decorative POP Ceiling" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Decorative POP Ceiling</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Behala, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> January 2024</p>
+                        </div>
+                        <p class="gallery-notes">Intricate design with traditional motifs</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="ceiling">
+                    <div class="gallery-img">
+                        <img src="images/ceiling3.svg" alt="Modern Tray Ceiling" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Modern Tray Ceiling</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Rajarhat, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> February 2024</p>
+                        </div>
+                        <p class="gallery-notes">Multi-level ceiling with ambient lighting</p>
+                    </div>
+                </div>
+                
+                <!-- Tiles Projects -->
+                <div class="gallery-item" data-category="tiles">
+                    <div class="gallery-img">
+                        <img src="images/tiles1.svg" alt="Italian Marble Flooring" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Italian Marble Flooring</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Park Circus, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> December 2023</p>
+                        </div>
+                        <p class="gallery-notes">Premium marble installation with precision cutting</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="tiles">
+                    <div class="gallery-img">
+                        <img src="images/tiles2.svg" alt="Bathroom Renovation" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Bathroom Renovation</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Jadavpur, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> November 2023</p>
+                        </div>
+                        <p class="gallery-notes">Complete bathroom tiling with waterproof installation</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="tiles">
+                    <div class="gallery-img">
+                        <img src="images/tiles3.svg" alt="Kitchen Backsplash" class="img-responsive">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Kitchen Backsplash</h3>
+                        <div class="gallery-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Dum Dum, Kolkata</p>
+                            <p><i class="fas fa-calendar-alt"></i> January 2024</p>
+                        </div>
+                        <p class="gallery-notes">Designer mosaic tiles with stain-resistant grout</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want Results Like These?</h2>
+                <p>Let us transform your space with our expert craftsmanship and attention to detail.</p>
+                <a href="contact.html" class="btn btn-primary">Book a Free Site Visit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Smart Painting</h3>
+                    <p>Your Local Interior Experts Since 1994</p>
+                </div>
+                <div class="footer-about">
+                    <h4>Smart Painting</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                    <p><i class="fas fa-envelope"></i> info@smartpainting.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Salt Lake, Kolkata, West Bengal</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Smart Painting. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contact-buttons">
+        <a href="tel:+919876543210" class="floating-btn call-btn">
+            <i class="fas fa-phone-alt"></i> Call Us Now
+        </a>
+        <a href="https://wa.me/919876543210" class="floating-btn whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
