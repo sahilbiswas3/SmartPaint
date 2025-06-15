@@ -14,19 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Mobile Navigation Toggle
     const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
+    const navLinksContainer = document.querySelector('.nav-links');
 
-    if (hamburger && navLinks) {
+    if (hamburger && navLinksContainer) {
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
+            navLinksContainer.classList.toggle('active');
         });
 
         // Close mobile menu when clicking on a nav link
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
+                navLinksContainer.classList.remove('active');
             });
         });
     }
